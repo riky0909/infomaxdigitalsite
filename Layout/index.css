@@ -25,7 +25,7 @@ p{
 
 
  .bg-img-layer-1 {
-  background-image: url("../images/header_bg.png");
+  background-image: url("../Layout/images/header_bg.png");
   position: absolute;
   top: 0;
   width: 100%;
@@ -33,6 +33,8 @@ p{
   z-index: 0;
   background-size: cover;
   background-repeat: no-repeat;
+  background: linear-gradient(180deg, #000000 48.14%, #FFFFFF 100%);
+
 }
 
 .bg-img-layer-2 {
@@ -98,6 +100,12 @@ p{
   line-height: 100%;
   /* padding-top: 130px; */
 }
+
+ .carousel-item img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
 .our-partner{
   padding-left: 165px;
   padding-top: 77px;
@@ -221,8 +229,104 @@ latter-spacing: 0%;
  background-color: #FFFFFF;
 }
 
+/* package section style */
+.package-card{
+  background-color: #EDEFF8;
+  border-radius: 20px ;
+}
+.package-card img{
+  border-radius: 15px;
+}
+.package-card-content{
+  padding: 26px;
+}
 
+.package-card-content h2{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.package-card-content p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 43px;
+}
+.package-card-content h3{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #4051AB;
 
+}
+
+.package-card-middle-border{
+  border: 1px solid #B9B9B9;
+}
+
+.package-card-content-list span{
+  font-size: 16px;
+  font-weight: 400;
+  latter-spacing: -2%;
+  line-height: 40px;
+}
+.package-card-content-list img{
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+}
+.option-add h2{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 100%;
+  margin-bottom: 50px;
+}
+.option-add-style{
+  background-color: #EDEFF8;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.option-add-style h2{
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 100%;
+  color: #000000;
+}
+.option-add-style p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  letter-spacing: 0%;
+  text-align: justify;
+}
+
+/* media query */
+
+@media (max-width: 991.98px) {
+  .our-partner {
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 575.98px) {
+  .row-gap-maintain{
+  height: 50px;
+}
+  .our-partner {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .trusted-title h2 {
+  font-size: 40px;
+}
+}
 
 
 
