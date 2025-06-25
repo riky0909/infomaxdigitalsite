@@ -328,6 +328,9 @@ latter-spacing: 0%;
   padding-right: 23px;
   border: none;
 }
+.why-choose-right{
+  padding-left: 153px;
+}
 .why-choose-section h2{
   font-size: 50px;
   font-weight: 700;
@@ -440,7 +443,7 @@ color: #212121;
 
 .form-section-right{
   background-color: #EDEFF8;
-  padding: 45px 45px 49px 45px;
+  padding: 50px;
   border-radius: 20px;
 }
 .form-section-right h2{
@@ -567,22 +570,49 @@ color: #FFFFFF;
 }
 .footer-wrapper-bg-img-3 p{
   font-size: 400;
-  font-size: 16px;
-line-height: 28px;
+  font-size: 14px;
+line-height: 22px;
 letter-spacing: 0%;
 color: #FFFFFF;
  
 }
 
+.useful-link a{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+}
+.location-detail a{
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
 /* botton line section */
 .row-gap-maintain-bottom-line{
   height: 90px;
+}
+.footer-line-text{
+  height: 53px;
 }
 .footer-line-text p{
   font-size: 16px;
   font-weight: 400;
   line-height: 100%;
   color: #FFFFFF;
+}
+.footer-line-text a{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 
