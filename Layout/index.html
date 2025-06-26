@@ -16,23 +16,20 @@
       rel="stylesheet"
       href="./Bootstrap5/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./index.css" />
-  
-    <title>Info Max Digital</title>
     <link rel="icon" href="https://www.infomaxdigital.com.au/images/logo.png" />
-   
-
-
+    <title>Info Max Digital</title>
   </head>
   <body>
     <!-- header section start -->
-    <section class="header-wrapper">
+    <section class="header-wrapper" id="#navbar-example3">
       <div class="bg-img-layer-1"></div>
       <div class="bg-img-layer-2"></div>
       <div class="container">
         <div class="row">
           <div
             class="col-12 d-flex justify-content-center align-items-center my-4">
-            <img src="./images/heading_logo.png" alt class />
+            <img class="cursor-pointer" src="./images/heading_logo.png" alt="#"
+              onclick="window.location.href='https://indiainfomax.nemizon3.com.au/'" />
           </div>
         </div>
         <div class="row">
@@ -53,10 +50,14 @@
               web solutions powered by WordPress,
               Shopify, Laravel, Webflow & more</p>
             <div class="mb-5 text-center text-lg-start">
-              <button class="mb-3 mb-lg-0 border-0">Get a Free Quote <img
+              <button class="mb-3 mb-lg-0 border-0"
+                onclick="location.href='#get-a-free-quates'">Get a Free Quote
+                <img
                   class="ps-2"
                   src="./images/button_forward_arrow.png" alt></button>
-              <button class="btn-view-our ms-0 ms-lg-3 ms-md-3">View Our Work
+              <button class="btn-view-our ms-0 ms-lg-3 ms-md-3"
+                onclick="location.href='#view-our-work'"
+                id="#view-our-work">View Our Work
                 <img class="ps-2"
                   src="./images/button_forward_arrow_2.png" alt></button>
             </div>
@@ -79,15 +80,14 @@
         <div class="row ">
           <div class="col-12">
             <img src="./images/header-main-image.png" alt
-              class=" w-100"/>
+              class=" w-100" />
           </div>
         </div>
       </div>
     </section>
-    <!-- header below section start -->
-    <div class="row-gap-maintain mt-4"></div>
-    <!-- carousel part start -->
+    <!--Trusted Technologies & Partners carousel part start -->
     <section>
+      <div class="row-gap-maintain mt-4"></div>
       <div class="container">
         <div class="row">
           <div class="col-12 text-center trusted-title">
@@ -96,46 +96,38 @@
         </div>
       </div>
       <div class="container-fluid mt-5 p-0">
-        <div class="tech-scroll-container d-flex align-items-center">
-    <div class="tech-item">
-      <img src="images/carousel-1.png" class="w-100" alt="Cloudflare">
-      
-    </div>
-    <div class="tech-item">
-      <img src="images/carousel-2.png" class="w-100" alt="WordPress">
-      
-    </div>
-    <div class="tech-item">
-      <img src="images/carousel-3.png" class="w-100" alt="Craft CMS">
-      
-    </div>
-    <div class="tech-item">
-      <img src="images/carousel-4.png" class="w-100" alt="Shopify">
-
-    </div>
-    <div class="tech-item">
-      <img src="images/carousel-5.png" class="w-100" alt="Webflow">
-      
-    </div>
-    <div class="tech-item">
-      <img src="images/carousel-6.png" class="w-100" alt="Laravel">
-      
-    </div>
-    <div class="tech-item">
-      <img src="images/carousel-7.png" class="w-100" alt="PHP">
-      
-    </div>
-    <div class="tech-item">
-      <img src="images/carousel-8.png" class="w-100" alt="HTML5">
-      
-    </div>
-  </div>
+        <div
+          class="tech-scroll-container d-flex align-items-center animate-scroll">
+          <div class="tech-item">
+            <img src="images/carousel-1.png" class="w-100" alt="Cloudflare">
+          </div>
+          <div class="tech-item">
+            <img src="images/carousel-2.png" class="w-100" alt="WordPress">
+          </div>
+          <div class="tech-item">
+            <img src="images/carousel-3.png" class="w-100" alt="Craft CMS">
+          </div>
+          <div class="tech-item">
+            <img src="images/carousel-4.png" class="w-100" alt="Shopify">
+          </div>
+          <div class="tech-item">
+            <img src="images/carousel-5.png" class="w-100" alt="Webflow">
+          </div>
+          <div class="tech-item">
+            <img src="images/carousel-6.png" class="w-100" alt="Laravel">
+          </div>
+          <div class="tech-item">
+            <img src="images/carousel-7.png" class="w-100" alt="PHP">
+          </div>
+          <div class="tech-item">
+            <img src="images/carousel-6.png" class="w-100" alt="Laravel">
+          </div>
+        </div>
       </div>
-
     </div>
   </section>
+  <!-- our partner & our services section start -->
   <section>
-    <!-- our partner section start -->
     <div class="row-gap-maintain"></div>
     <div class="container">
       <div class="row">
@@ -168,10 +160,9 @@
               <img src="images/partner-4.png" class="w-100" alt>
             </div>
           </div>
-
         </div>
       </div>
-      <!-- service section start -->
+      <!--core service section start -->
       <div class="row-gap-maintain"></div>
       <div class="row">
         <div class="col-12 core-service-section text-center">
@@ -262,511 +253,558 @@
           <button class="lear-more-btn">Learn More</button>
         </div>
       </div>
-      
+    </div>
+  </section>
+  <!-- our portfolio section -->
+  <section id="view-our-work">
+    <div class="row-gap-maintain"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 core-service-section text-center">
+          <h2 class="mb-3">Our Portfolio</h2>
+          <p>Showcasing our best work for Australian businesses</p>
+        </div>
       </div>
-    </section>
-    <!-- our portfolio section -->
-    <section>
-      <div class="row-gap-maintain"></div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 core-service-section text-center">
-            <h2 class="mb-3">Our Portfolio</h2>
-            <p>Showcasing our best work for Australian businesses</p>
+      <div class="row">
+        <div class="col-12 col-lg-4 p-0 associate-img-bg mb-3 mb-lg-0">
+          <img src="images/portfolio-1.png" class="w-100" height="500px" alt>
+          <div class="px-4 py-4">
+            <span class="bage-font-style me-2">Shopify</span><span
+              class="bage-font-style me-2">Custom Apps</span><span
+              class="bage-font-style me-2">SEO</span>
+            <h2 class="my-3">PMA Associates</h2>
+            <p>We provide a full range of Tax and Accounting services, along
+              with Strategic Planning, Advisory, and Business Consultancy.</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 col-lg-4 p-0 associate-img-bg mb-3 mb-lg-0">
-            <img src="images/portfolio-1.png" class="w-100" height="500px" alt>
-            <div class="px-4 py-4">
-              <span class="bage-font-style me-2">Shopify</span><span
-                class="bage-font-style me-2">Custom Apps</span><span
-                class="bage-font-style me-2">SEO</span>
-              <h2 class="my-3">PMA Associates</h2>
-              <p>We provide a full range of Tax and Accounting services, along
-                with Strategic Planning, Advisory, and Business Consultancy.</p>
-            </div>
+        <div class="col-12 col-lg-4 p-0 syc-img-bg mb-3 mb-lg-0">
+          <img src="images/portfolio-2.png" class="w-100" height="500px" alt>
+          <div class="px-4 py-4 border-bottom-end">
+            <span class="syc-font-style me-2">WordPress</span><span
+              class="syc-font-style me-2">Custom Apps</span><span
+              class="syc-font-style me-2">Performance</span>
+            <h2 class="my-3">SYC</h2>
+            <p class="mb-3">SYC have extended this expertise to people of all
+              ages for more than three decades.</p>
+            <span class="syc-read-more pe-1">Read More</span><img
+              src="images/Arrow 3 (Stroke)(1).png" alt>
           </div>
-          <div class="col-12 col-lg-4 p-0 syc-img-bg mb-3 mb-lg-0">
-            <img src="images/portfolio-2.png" class="w-100" height="500px" alt>
-            <div class="px-4 py-4 border-bottom-end">
-              <span class="syc-font-style me-2">WordPress</span><span
-                class="syc-font-style me-2">Custom Apps</span><span
-                class="syc-font-style me-2">Performance</span>
-              <h2 class="my-3">SYC</h2>
-              <p class="mb-3">SYC have extended this expertise to people of all
-                ages for more than three decades.</p>
-              <span class="syc-read-more pe-1">Read More</span><img
-                src="images/Arrow 3 (Stroke)(1).png" alt>
-            </div>
+        </div>
+        <div class="col-12 col-lg-4 p-0 associate-img-bg mb-3 mb-lg-0">
+          <img src="images/portfolio-3.png" class="w-100" height="500px" alt>
+          <div class="px-4 py-4">
+            <span class="bage-font-style me-2">Shopify</span><span
+              class="bage-font-style me-2">Custom Apps</span><span
+              class="bage-font-style me-2">SEO</span>
+            <h2 class="my-3">Hillcrest Medical Center</h2>
+            <p>Hillcrest Medical Centre, you can trust us to be your lifelong
+              partner in achieving and maintaining optimal health.</p>
           </div>
-          <div class="col-12 col-lg-4 p-0 associate-img-bg mb-3 mb-lg-0">
-            <img src="images/portfolio-3.png" class="w-100" height="500px" alt>
-            <div class="px-4 py-4">
-              <span class="bage-font-style me-2">Shopify</span><span
-                class="bage-font-style me-2">Custom Apps</span><span
-                class="bage-font-style me-2">SEO</span>
-              <h2 class="my-3">Hillcrest Medical Center</h2>
-              <p>Hillcrest Medical Centre, you can trust us to be your lifelong
-                partner in achieving and maintaining optimal health.</p>
-            </div>
-          </div>
+        </div>
 
+      </div>
+    </div>
+  </section>
+  <!-- client say section carousel start -->
+  <section>
+    <div class="row-gap-maintain"></div>
+    <div class="container-fluid p-0">
+      <div class="row w-100">
+        <div class="col-12 core-service-section text-center">
+          <h2 class="mb-3">What Our Clients Say</h2>
+          <p>Hear from our satisfied Australian clients</p>
         </div>
       </div>
-    </section>
+     <div class="client-carousel-wrapper overflow-hidden">
+        <div class="row animate-scroll-client-section-one">
+          <div class="col-12 col-lg-4 client-section-one">
+            <img src="images/carousel-2-1.png" class="h-100 w-100" alt>
+          </div>
+          <div class="col-12 col-lg-4 client-section-one">
+            <img src="images/carousel-2-2.png" class="h-100 w-100" alt>
+          </div>
+          <div class="col-12 col-lg-4 client-section-one">
+            <img src="images/carousel-2-3.png" class="h-100 w-100" alt>
+          </div>
+          <!-- duplicated -->
+          <div class="col-12 col-lg-4 client-section-one">
+            <img src="images/carousel-2-1.png" class="h-100 w-100" alt>
+          </div>
+          <div class="col-12 col-lg-4 client-section-one">
+            <img src="images/carousel-2-2.png" class="h-100 w-100" alt>
+          </div>
+          <div class="col-12 col-lg-4 client-section-one">
+            <img src="images/carousel-2-3.png" class="h-100 w-100" alt>
+          </div>
+        </div>
+      </div>
+          <div class="client-carousel-wrapper overflow-hidden mt-4">
+        <div class="row animate-scroll-client-section-two">
+          <div class="col-0 col-lg-1"></div>
+          <div class="col-12 col-lg-4 client-section-two">
+            <img src="images/carousel-2-4.png" class="h-100 w-100" alt>
+          </div>
+          <div class="col-12 col-lg-4 client-section-two">
+            <img src="images/carousel-2-5.png" class="h-100 w-100" alt>
+          </div>
+          <div class="col-12 col-lg-4 client-section-two">
+            <img src="images/carousel-2-2.png" class="h-100 w-100" alt>
+          </div>
+          <!-- duplicated -->
+          <div class="col-12 col-lg-4 client-section-two">
+            <img src="images/carousel-2-3.png" class="h-100 w-100" alt>
+          </div>
+          <div class="col-12 col-lg-4 client-section-two">
+            <img src="images/carousel-2-4.png" class="h-100 w-100" alt>
+          </div>
+          <div class="col-12 col-lg-4 client-section-two">
+            <img src="images/carousel-2-5.png" class="h-100 w-100" alt>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- our package/option-add/why-choose/meet the team/form section -->
     <section>
       <div class="container">
-        <!-- client say section start -->
-      <div class="row-gap-maintain"></div>
-      <div class="row">
-        <div class="col-12 core-service-section text-center">
-          <h2 class="mb-3">Our Core Services</h2>
-          <p>Comprehensive digital solutions tailored to your business
-            needs</p>
+        <div class="row-gap-maintain"></div>
+        <div class="row">
+          <div class="col-12 core-service-section text-center">
+            <h2 class="mb-3">Our Packages</h2>
+            <p>Choose the model that works best for your project</p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12"></div>
-      </div>
-      <!-- our package section -->
-      <div class="row-gap-maintain"></div>
-      <div class="row">
-        <div class="col-12 core-service-section text-center">
-          <h2 class="mb-3">Our Packages</h2>
-          <p>Choose the model that works best for your project</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-lg-3 col-md-6 mb-3 mb-lg-0">
-          <div class="package-card p-1">
-            <img src="./images/hourly.png" class="w-100" alt>
-            <div class="package-card-content">
-              <h2 class="mb-3">Hourly</h2>
-              <p>Ideal for small changes, quick fixes, or ongoing
-                consulting</p>
-              <h3 class="mb-3">$80 - $120/hour</h3>
-              <div class="package-card-middle-border mb-3"></div>
-              <div class="package-card-content-list">
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>UI/UX changes</span>
+        <div class="row">
+          <div class="col-12 col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <div class="package-card p-1">
+              <img src="./images/hourly.png" class="w-100" alt>
+              <div class="package-card-content">
+                <h2 class="mb-3">Hourly</h2>
+                <p>Ideal for small changes, quick fixes, or ongoing
+                  consulting</p>
+                <h3 class="mb-3">$80 - $120/hour</h3>
+                <div class="package-card-middle-border mb-3"></div>
+                <div class="package-card-content-list">
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>UI/UX changes</span>
+                  </div>
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>Minor bug fixes</span>
+                  </div>
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>CMS updates</span>
+                  </div>
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>Consultation and support</span>
+                  </div>
                 </div>
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>Minor bug fixes</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <div class="package-card p-1">
+              <img src="./images/fixed_cost.png" class="w-100" alt>
+              <div class="package-card-content">
+                <h2 class="mb-3">Fixed Cost</h2>
+                <p>Best for clearly defined projects with specific timelines and
+                  deliverables</p>
+                <h3 class="mb-3">From $1,500/project</h3>
+                <div class="package-card-middle-border mb-3"></div>
+                <div class="package-card-content-list">
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>End-to-end website or app</span>
+                  </div>
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>Fixed scope & timeline</span>
+                  </div>
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>Includes testing & basic SEO</span>
+                  </div>
+
                 </div>
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>CMS updates</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-6 mb-3 mb-lg-0">
+            <div class="package-card p-1">
+              <img src="./images/dadicated_team.png" class="w-100" alt>
+              <div class="package-card-content">
+                <h2 class="mb-3">Dedicated Team</h2>
+                <p>Hire a full-time/part-time developer or designer exclusively
+                  for your projects</p>
+                <h3 class="mb-3">From $2,500/month</h3>
+                <div class="package-card-middle-border mb-3"></div>
+                <div class="package-card-content-list">
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>Dedicated developer/designer</span>
+                  </div>
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>100% project focus</span>
+                  </div>
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>Daily reporting & collaboration</span>
+                  </div>
                 </div>
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>Consultation and support</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-6">
+            <div class="package-card p-1">
+              <img src="images/monthly-retainer.png" class="w-100" alt>
+              <div class="package-card-content">
+                <h2 class="mb-3">Monthly Retainers</h2>
+                <p>Ideal for long-term website management, support, and growth
+                  strategy</p>
+                <h3 class="mb-3">From $750/month</h3>
+                <div class="package-card-middle-border mb-3"></div>
+                <div class="package-card-content-list">
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>Monthly hours allocation</span>
+                  </div>
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>Website updates</span>
+                  </div>
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>Performance monitoring</span>
+                  </div>
+                  <div>
+                    <img src="images/tick-circle(1).png" class="pe-1"
+                      alt="tick">
+                    <span>Tech support</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-3 col-md-6 mb-3 mb-lg-0">
-          <div class="package-card p-1">
-            <img src="./images/fixed_cost.png" class="w-100" alt>
-            <div class="package-card-content">
-              <h2 class="mb-3">Fixed Cost</h2>
-              <p>Best for clearly defined projects with specific timelines and deliverables</p>
-              <h3 class="mb-3">From $1,500/project</h3>
-              <div class="package-card-middle-border mb-3"></div>
-              <div class="package-card-content-list">
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>End-to-end website or app</span>
-                </div>
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>Fixed scope & timeline</span>
-                </div>
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>Includes testing & basic SEO</span>
-                </div>
-                
+        <!-- optional add-on -->
+        <div class="row-gap-maintain"></div>
+        <div class="row">
+          <div class="col-12 text-center option-add">
+            <h2 class>Optional Add-ons</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-6 mb-3">
+            <div class="option-add-style">
+              <div class="d-flex justify-content-start align-items-center">
+                <img src="./images/chart-2.png" class="pe-3" alt>
+                <h2>SEO Optimization
+                  Package</h2>
               </div>
+              <div class="package-card-middle-border my-3"></div>
+              <p>Boost your website's visibility with on-page and off-page SEO
+                strategies tailored to rank higher in search engines.</p>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-lg-3 col-md-6 mb-3 mb-lg-0">
-          <div class="package-card p-1">
-            <img src="./images/dadicated_team.png" class="w-100" alt>
-            <div class="package-card-content">
-              <h2 class="mb-3">Dedicated Team</h2>
-              <p>Hire a full-time/part-time developer or designer exclusively for your projects</p>
-              <h3 class="mb-3">From $2,500/month</h3>
-              <div class="package-card-middle-border mb-3"></div>
-              <div class="package-card-content-list">
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>Dedicated developer/designer</span>
-                </div>
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>100% project focus</span>
-                </div>
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>Daily reporting & collaboration</span>
-                </div>                
+          <div class="col-12 col-lg-4 col-md-6 mb-3">
+            <div class="option-add-style">
+              <div class="d-flex justify-content-start align-items-center">
+                <img src="./images/search-normal.svg" class="pe-3" alt>
+                <h2>One of SEO
+                  Package</h2>
               </div>
+              <div class="package-card-middle-border my-3"></div>
+              <p>Ideal for quick SEO fixes — includes a one-time audit, keyword
+                targeting, and technical enhancements to improve
+                performance.</p>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-lg-3 col-md-6">
-          <div class="package-card p-1">
-            <img src="images/monthly-retainer.png" class="w-100" alt>
-            <div class="package-card-content">
-              <h2 class="mb-3">Monthly Retainers</h2>
-              <p>Ideal for long-term website management, support, and growth strategy</p>
-              <h3 class="mb-3">From $750/month</h3>
-              <div class="package-card-middle-border mb-3"></div>
-              <div class="package-card-content-list">
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>Monthly hours allocation</span>
-                </div>
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>Website updates</span>
-                </div>
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>Performance monitoring</span>
-                </div>
-                <div>
-                  <img src="images/tick-circle(1).png" class="pe-1"
-                    alt="tick">
-                  <span>Tech support</span>
-                </div>
+          <div class="col-12 col-lg-4 col-md-6 mb-3">
+            <div class="option-add-style">
+              <div class="d-flex justify-content-start align-items-center">
+                <img src="./images/cloud-add.png" class="pe-3" alt>
+                <h2>Website Recovery
+                  Package
+                </h2>
               </div>
+              <div class="package-card-middle-border my-3"></div>
+              <p>Recover from traffic drops or penalties with a full SEO audit,
+                issue resolution, and performance restoration.</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6 mb-3 mb-lg-0">
+            <div class="option-add-style">
+              <div class="d-flex justify-content-start align-items-center">
+                <img src="./images/shield-security.png" class="pe-3" alt>
+                <h2>Website Hosting &
+                  Security</h2>
+              </div>
+              <div class="package-card-middle-border my-3"></div>
+              <p>Reliable hosting with robust security measures to keep your
+                website fast, safe, and always accessible.</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6 mb-3 mb-lg-0">
+            <div class="option-add-style">
+              <div class="d-flex justify-content-start align-items-center">
+                <img src="./images/bezier.png" class="pe-3" alt>
+                <h2>UI/UX
+                  Revamp</h2>
+              </div>
+              <div class="package-card-middle-border my-3"></div>
+              <p>Enhance user experience with a modern, intuitive, and
+                conversion-focused design overhaul.</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6 mb-3 mb-lg-0">
+            <div class="option-add-style">
+              <div class="d-flex justify-content-start align-items-center">
+                <img src="./images/presention-chart.png" class="pe-3" alt>
+                <h2>CMS
+                  Training
+                </h2>
+              </div>
+              <div class="package-card-middle-border my-3"></div>
+              <p>Learn to manage your website confidently with personalized
+                training sessions on your content management system.</p>
             </div>
           </div>
         </div>
-      </div>
-      <!-- optional add-on -->
-      <div class="row-gap-maintain"></div>
-      <div class="row">
-        <div class="col-12 text-center option-add">
-          <h2 class>Optional Add-ons</h2>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-12 col-lg-3 col-md-6 d-flex justify-content-center">
+            <button class="btn-request-custom-quote">Request Custom
+              Quote</button>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-lg-4 col-md-6 mb-3">
-          <div class="option-add-style">
-            <div class="d-flex justify-content-start align-items-center">
-              <img src="./images/chart-2.png" class="pe-3" alt>
-              <h2>SEO Optimization
-Package</h2>
+        <!-- why choose section -->
+        <div class="row-gap-maintain"></div>
+        <div class="row">
+          <div class="col-12 col-lg-5">
+            <div class="why-choose-section">
+              <h2 class="text-center text-lg-start">Why Choose
+                Infomax Digital</h2>
+              <p>At Infomax Digital, we bring over 10 years of experience
+                delivering high-performance web design and development
+                solutions. Our Australia-based team ensures clear communication,
+                local expertise, and reliable support tailored to your
+                needs.</p>
+              <p>We pride ourselves on fast turnaround times, helping you go
+                live quicker without compromising quality. Every project is
+                built on a custom strategy, with a focus on delivering
+                measurable results and user-first design.</p>
+              <p>Our developers write secure, scalable code, ensuring your
+                website or application is future-ready. With our 100%
+                satisfaction guarantee, we're committed to exceeding
+                expectations at every step.</p>
             </div>
-            <div class="package-card-middle-border my-3"></div>
-            <p>Boost your website's visibility with on-page and off-page SEO strategies tailored to rank higher in search engines.</p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-4 col-md-6 mb-3">
-          <div class="option-add-style">
-            <div class="d-flex justify-content-start align-items-center">
-              <img src="./images/search-normal.svg" class="pe-3" alt>
-              <h2>One of SEO
-Package</h2>
-            </div>
-            <div class="package-card-middle-border my-3"></div>
-            <p>Ideal for quick SEO fixes — includes a one-time audit, keyword targeting, and technical enhancements to improve performance.</p>
-
-          </div>
-        </div>
-        <div class="col-12 col-lg-4 col-md-6 mb-3">
-          <div class="option-add-style">
-            <div class="d-flex justify-content-start align-items-center">
-              <img src="./images/cloud-add.png" class="pe-3" alt>
-              <h2>Website Recovery
-Package
-              </h2>
-            </div>
-            <div class="package-card-middle-border my-3"></div>
-            <p>Recover from traffic drops or penalties with a full SEO audit, issue resolution, and performance restoration.</p>
-
-          </div>
-        </div>
-        <div class="col-12 col-lg-4 col-md-6 mb-3 mb-lg-0">
-          <div class="option-add-style">
-            <div class="d-flex justify-content-start align-items-center">
-              <img src="./images/shield-security.png" class="pe-3" alt>
-              <h2>Website Hosting &
-                Security</h2>
-            </div>
-            <div class="package-card-middle-border my-3"></div>
-            <p>Reliable hosting with robust security measures to keep your website fast, safe, and always accessible.</p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-4 col-md-6 mb-3 mb-lg-0">
-          <div class="option-add-style">
-            <div class="d-flex justify-content-start align-items-center">
-              <img src="./images/bezier.png" class="pe-3" alt>
-              <h2>UI/UX
-                Revamp</h2>
-            </div>
-            <div class="package-card-middle-border my-3"></div>
-            <p>Enhance user experience with a modern, intuitive, and conversion-focused design overhaul.</p>
-
-          </div>
-        </div>
-        <div class="col-12 col-lg-4 col-md-6 mb-3 mb-lg-0">
-          <div class="option-add-style">
-            <div class="d-flex justify-content-start align-items-center">
-              <img src="./images/presention-chart.png" class="pe-3" alt>
-              <h2>CMS
-                Training
-              </h2>
-            </div>
-            <div class="package-card-middle-border my-3"></div>
-            <p>Learn to manage your website confidently with personalized training sessions on your content management system.</p>
-
-          </div>
-        </div>
-      </div>
-      <div class="row mt-5 justify-content-center">
-        <div class="col-12 col-lg-3 col-md-6 d-flex justify-content-center">
-          <button class="btn-request-custom-quote">Request Custom
-            Quote</button>
-        </div>
-      </div>
-      <!-- why choose section -->
-      <div class="row-gap-maintain"></div>
-      <div class="row">
-        <div class="col-12 col-lg-5">
-          <div class="why-choose-section">
-            <h2 class="text-center text-lg-start">Why Choose
-              Infomax Digital</h2>
-            <p>At Infomax Digital, we bring over 10 years of experience
-              delivering high-performance web design and development
-              solutions. Our Australia-based team ensures clear communication,
-              local expertise, and reliable support tailored to your
-              needs.</p>
-            <p>We pride ourselves on fast turnaround times, helping you go
-              live quicker without compromising quality. Every project is
-              built on a custom strategy, with a focus on delivering
-              measurable results and user-first design.</p>
-            <p>Our developers write secure, scalable code, ensuring your
-              website or application is future-ready. With our 100%
-              satisfaction guarantee, we're committed to exceeding
-              expectations at every step.</p>
-          </div>
-          <div
-            class="row mt-5 justify-content-center justify-content-lg-start mb-5 mb-lg-0">
             <div
-              class="col-12 col-lg-6 col-md-6 d-flex justify-content-center justify-content-lg-start">
-              <button class="btn-request-custom-quote">Get In Touch</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-7">
-          <div class="row why-choose-right">
-            <div class="col-6 mb-5">
-              <div class="year-of-exp">
-                <img src="./images/why-choose-1.png" alt>
-                <h3>10+ Years of Experience</h3>
-                <p>Proven track record in delivering high-performance digital solutions</p>
-              </div>
-            </div>
-            <div class="col-6 mb-5">
-              <div class="year-of-exp">
-                <img src="./images/why-choose-2.png" alt>
-                <h3>Fast Turnaround</h3>
-                <p>Quick delivery without compromising on quality</p>
-              </div>
-            </div>
-            <div class="col-6 mb-5">
-              <div class="year-of-exp">
-                <img src="./images/why-choose-3.png" alt>
-                <h3>Custom Strategy</h3>
-                <p>Tailored solutions aligned with your business goals</p>
-              </div>
-            </div>
-            <div class="col-6 mb-5">
-              <div class="year-of-exp">
-                <img src="./images/why-choose-4.png" alt>
-                <h3>Secure, Scalable Code</h3>
-                <p>Future-ready applications built with best practices</p>
-              </div>
-            </div>
-            <div class="col-6 mb-5 mb-lg-0">
-              <div class="year-of-exp">
-                <img src="./images/why-choose-5.png" alt>
-                <h3>Australia-Based Team</h3>
-                <p>Local expertise with clear communication and reliable support</p>
-              </div>
-            </div>
-            <div class="col-6 mb-5 mb-lg-0">
-              <div class="year-of-exp">
-                <img src="./images/why-choose-6.png" alt>
-                <h3>100% Satisfaction Guarantee</h3>
-                <p>Committed to exceeding expectations at every step</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- meet the team section -->
-      <div class="row-gap-maintain"></div>
-      <div class="row">
-        <div class="col-12 core-service-section text-center">
-          <h2 class="mb-3">Meet The Team</h2>
-          <p>Meet the People Behind the Code</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-lg-6 mb-3 mb-lg-0">
-          <div
-            class="meet-the-team">
-            <div><img src="./images/kaushal-img.png" class="mb-3 mb-lg-0"
-                alt></div>
-            <div class="ps-0 ps-lg-5">
-              <h4>Kaushal Shah</h4>
-              <h5>Founder</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                blandit elit ac tortor fermentum euismod. Etiam commodo risus
-                et diam convallis vestibulum.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6">
-          <div
-            class="meet-the-team">
-            <div><img src="./images/sanjay-img.png" class="mb-3 mb-lg-0"
-                alt></div>
-            <div class="ps-0 ps-lg-5">
-              <h4>Sanjay Sathwara</h4>
-              <h5>Partner</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                blandit elit ac tortor fermentum euismod. Etiam commodo risus
-                et diam convallis vestibulum.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- form section -->
-      <div class="row-gap-maintain"></div>
-      <div class="row">
-        <div class="col-12 col-lg-5 mb-3 mb-lg-0">
-          <div class="form-section-left">
-            <h2 class="mb-3">Why Choose
-              Infomax Digital?</h2>
-            <p class="mb-3">Let our experts analyze your WordPress website and
-              identify
-              issues affecting performance, security, and user experience.</p>
-            <div class="form-section-left-list">
-              <div class="mb-3 d-flex align-items-center">
-                <img src="./images/tick-circle-white.svg" class="me-2"
-                  alt="tick">
-                <span>100% Local Adelaide Team</span>
-              </div>
-              <div class="mb-3 d-flex align-items-center">
-                <img src="./images/tick-circle-white.svg" class="me-2"
-                  alt="tick">
-                <span>Affordable Pricing with
-                  No Hidden Fees</span>
-              </div>
-              <div class="mb-3 d-flex align-items-center">
-                <img src="./images/tick-circle-white.svg" class="me-2"
-                  alt="tick">
-                <span>24/7 Support</span>
-              </div>
-              <div class="mb-3 d-flex align-items-center">
-                <img src="./images/tick-circle-white.svg" class="me-2"
-                  alt="tick">
-                <span>Trusted by Businesses &
-                  Startups Australia-wide</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-7">
-          <div class="form-section-right">
-            <div class="row mb-4">
-              <div class="col-12">
-                <h2 class="mb-3">Get a Free Quote</h2>
-                <p>Get in touch and let's discuss how we can help you achieve
-                  your digital goals</p>
-              </div>
-            </div>
-            <!-- <div class="row"> -->
-            <form class="form-text-classic">
-              <div class="row">
-                <div class="form-group col-12 col-lg-6 mb-3">
-                  <label for="fullname">Full Name*</label>
-                  <input type="text" placeholder="Enter full name"
-                    class="form-control" id="fullname">
-                </div>
-                <div class="form-group col-12 col-lg-6 mb-3">
-                  <label for="email">Email Address*</label>
-                  <input type="email" class="form-control"
-                    id="email" placeholder="Enter your email">
-                </div>
-
-                <div class="form-group col-12 col-lg-6 mb-3">
-                  <label for="phonenumber">Phone Number*</label>
-                  <input type="number" class="form-control" id="phonenumber"
-                    placeholder="Enter phone number">
-                </div>
-                <div class="form-group col-12 col-lg-6 mb-3">
-                  <label for="service">Service Required*</label>
-                  <select id="service" class="form-control">
-                    <option selected>What type of service do you
-                      need?</option>
-                    <option>...</option>
-                  </select>
-                </div>
-              </div>
-              <div class="row mb-4">
-                <div class="form-group col-12">
-                  <label for="message">Message</label>
-                  <textarea class="form-control" id="message"
-                    placeholder="Your message"></textarea>
-                </div>
-              </div>
-
+              class="row mt-5 justify-content-center justify-content-lg-start mb-5 mb-lg-0">
               <div
-                class="row justify-content-center justify-content-lg-start">
-                <div
-                  class="col-12 col-lg-6 col-md-3 d-flex justify-content-center justify-content-lg-start  align-items-center">
-                  <button class="diss-project-btn">Let's Discuss Your
-                    Project</button>
+                class="col-12 col-lg-6 col-md-6 d-flex justify-content-center justify-content-lg-start">
+                <button class="btn-request-custom-quote">Get In Touch</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7">
+            <div class="row why-choose-right">
+              <div class="col-6 mb-5">
+                <div class="year-of-exp">
+                  <img src="./images/why-choose-1.png" alt>
+                  <h3>10+ Years of Experience</h3>
+                  <p>Proven track record in delivering high-performance digital
+                    solutions</p>
                 </div>
               </div>
-            </form>
-
-            <!-- </div> -->
-
+              <div class="col-6 mb-5">
+                <div class="year-of-exp">
+                  <img src="./images/why-choose-2.png" alt>
+                  <h3>Fast Turnaround</h3>
+                  <p>Quick delivery without compromising on quality</p>
+                </div>
+              </div>
+              <div class="col-6 mb-5">
+                <div class="year-of-exp">
+                  <img src="./images/why-choose-3.png" alt>
+                  <h3>Custom Strategy</h3>
+                  <p>Tailored solutions aligned with your business goals</p>
+                </div>
+              </div>
+              <div class="col-6 mb-5">
+                <div class="year-of-exp">
+                  <img src="./images/why-choose-4.png" alt>
+                  <h3>Secure, Scalable Code</h3>
+                  <p>Future-ready applications built with best practices</p>
+                </div>
+              </div>
+              <div class="col-6 mb-5 mb-lg-0">
+                <div class="year-of-exp">
+                  <img src="./images/why-choose-5.png" alt>
+                  <h3>Australia-Based Team</h3>
+                  <p>Local expertise with clear communication and reliable
+                    support</p>
+                </div>
+              </div>
+              <div class="col-6 mb-5 mb-lg-0">
+                <div class="year-of-exp">
+                  <img src="./images/why-choose-6.png" alt>
+                  <h3>100% Satisfaction Guarantee</h3>
+                  <p>Committed to exceeding expectations at every step</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+        <!-- meet the team section -->
+        <div class="row-gap-maintain"></div>
+        <div class="row">
+          <div class="col-12 core-service-section text-center">
+            <h2 class="mb-3">Meet The Team</h2>
+            <p>Meet the People Behind the Code</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-3 mb-lg-0">
+            <div
+              class="meet-the-team">
+              <div><img src="./images/kaushal-img.png" class="mb-3 mb-lg-0"
+                  alt></div>
+              <div class="ps-0 ps-lg-5">
+                <h4>Kaushal Shah</h4>
+                <h5>Founder</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  blandit elit ac tortor fermentum euismod. Etiam commodo risus
+                  et diam convallis vestibulum.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div
+              class="meet-the-team">
+              <div><img src="./images/sanjay-img.png" class="mb-3 mb-lg-0"
+                  alt></div>
+              <div class="ps-0 ps-lg-5">
+                <h4>Sanjay Sathwara</h4>
+                <h5>Partner</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  blandit elit ac tortor fermentum euismod. Etiam commodo risus
+                  et diam convallis vestibulum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- form section -->
+        <div class="row-gap-maintain"></div>
+        <div class="row" id="get-a-free-quates">
+          <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+            <div class="form-section-left">
+              <h2 class="mb-3">Why Choose
+                Infomax Digital?</h2>
+              <p class="mb-3">Let our experts analyze your WordPress website and
+                identify
+                issues affecting performance, security, and user experience.</p>
+              <div class="form-section-left-list">
+                <div class="mb-3 d-flex align-items-center">
+                  <img src="./images/tick-circle-white.svg" class="me-2"
+                    alt="tick">
+                  <span>100% Local Adelaide Team</span>
+                </div>
+                <div class="mb-3 d-flex align-items-center">
+                  <img src="./images/tick-circle-white.svg" class="me-2"
+                    alt="tick">
+                  <span>Affordable Pricing with
+                    No Hidden Fees</span>
+                </div>
+                <div class="mb-3 d-flex align-items-center">
+                  <img src="./images/tick-circle-white.svg" class="me-2"
+                    alt="tick">
+                  <span>24/7 Support</span>
+                </div>
+                <div class="mb-3 d-flex align-items-center">
+                  <img src="./images/tick-circle-white.svg" class="me-2"
+                    alt="tick">
+                  <span>Trusted by Businesses &
+                    Startups Australia-wide</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-8">
+            <div class="form-section-right">
+              <div class="row mb-4">
+                <div class="col-12">
+                  <h2 class="mb-3">Get a Free Quote</h2>
+                  <p>Get in touch and let's discuss how we can help you achieve
+                    your digital goals</p>
+                </div>
+              </div>
+              <form class="form-text-classic">
+                <div class="row">
+                  <div class="form-group col-12 col-lg-6 mb-3">
+                    <label for="fullname">Full Name*</label>
+                    <input type="text" placeholder="Enter full name"
+                      class="form-control" id="fullname">
+                  </div>
+                  <div class="form-group col-12 col-lg-6 mb-3">
+                    <label for="email">Email Address*</label>
+                    <input type="email" class="form-control"
+                      id="email" placeholder="Enter your email">
+                  </div>
+                  <div class="form-group col-12 col-lg-6 mb-3">
+                    <label for="phonenumber">Phone Number*</label>
+                    <input type="number" class="form-control" id="phonenumber"
+                      placeholder="Enter phone number">
+                  </div>
+                  <div class="form-group col-12 col-lg-6 mb-3">
+                    <label for="service">Service Required*</label>
+                    <select id="service" class="form-control">
+                      <option selected>What type of service do you
+                        need?</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row mb-4">
+                  <div class="form-group col-12">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message"
+                      placeholder="Your message"></textarea>
+                  </div>
+                </div>
+                <div
+                  class="row justify-content-center justify-content-lg-start">
+                  <div
+                    class="col-12 col-lg-6 col-md-3 d-flex justify-content-center justify-content-lg-start  align-items-center">
+                    <button class="diss-project-btn">Let's Discuss Your
+                      Project</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- footer section -->
-    <div class="row-gap-maintain"></div>
     <section class="footer-wrapper d-none d-lg-block">
-      <!-- <div class="footer-wrapper-bg-img-1"></div>
-          <div class="footer-wrapper-bg-img-2"></div> -->
+      <div class="row-gap-maintain"></div>
+
       <div class="footer-wrapper-bg-img-1">
 
       </div>
@@ -780,12 +818,12 @@ Package
               trail - and our clients are proof. They came with
               challenges;
               they left with solutions that worked.</p>
-            <div><button class="btn-footer">Get Your Free Consultation
+            <div><button class="btn-footer" onclick="location.href ='#get-a-free-quates'">Get Your Free Consultation
                 <img src="./images/arrow-right.png" alt></button></div>
           </div>
           <div class="col-0 col-lg-2"></div>
           <div class="col-3"><img src="./images/footer-logo.png"
-              class="w-100" alt></div>
+              class height="275px" width="226px" alt></div>
         </div>
       </div>
       <div class="container footer-wrapper-bg-img-3">
@@ -822,9 +860,9 @@ Package
               </div>
               <div class="d-flex align-items-center mb-2">
                 <img src="images/location.png" class="me-2" alt>
-                <a href="" target="_blank">
-  Ahmedabad, India
-</a>
+                <a href target="_blank">
+                  Ahmedabad, India
+                </a>
               </div>
               <div class="d-flex align-items-center mb-2">
                 <img src="images/call.png" class="me-2" alt>
@@ -832,7 +870,8 @@ Package
               </div>
               <div class="d-flex align-items-center mb-2">
                 <img src="images/sms.svg" class="me-2" alt>
-                <a href="mailto:hello@infomaxdigital.com.au">hello@infomaxdigital.com.au</a>
+                <a
+                  href="mailto:hello@infomaxdigital.com.au">hello@infomaxdigital.com.au</a>
               </div>
             </div>
           </div>
@@ -845,10 +884,10 @@ Package
               </div>
               <div class="d-flex align-items-center mb-2">
                 <img src="images/location.png" class="me-2" alt>
-                 <a href="" target="_blank">
-  Adelaide, Australia
-</a>
-                
+                <a href target="_blank">
+                  Adelaide, Australia
+                </a>
+
               </div>
               <div class="d-flex align-items-center mb-2">
                 <img src="images/call.png" class="me-2" alt>
@@ -856,7 +895,8 @@ Package
               </div>
               <div class="d-flex align-items-center mb-2">
                 <img src="images/sms.svg" class="me-2" alt>
-                <a href="mailto:hello@infomaxdigital.com.au">hello@infomaxdigital.com.au</a>
+                <a
+                  href="mailto:hello@infomaxdigital.com.au">hello@infomaxdigital.com.au</a>
               </div>
             </div>
           </div>
@@ -872,7 +912,7 @@ Package
             <div
               class="d-flex align-items-center justify-content-between footer-line-text">
               <p>© 2025 Infomax Digital. All Rights Reserved.</p>
-              <a href="#" class="">Privacy Policy | Terms of Service</a>
+              <a href="#" class>Privacy Policy | Terms of Service</a>
             </div>
           </div>
         </div>
