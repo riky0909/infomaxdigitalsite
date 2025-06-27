@@ -15,8 +15,10 @@
     <link
       rel="stylesheet"
       href="./Bootstrap5/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./index.css" />
     <link rel="icon" href="https://www.infomaxdigital.com.au/images/logo.png" />
+    <link rel="stylesheet" href="./general.css" />
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="./mediaQuery.css" />
     <title>Info Max Digital</title>
   </head>
   <body>
@@ -96,33 +98,54 @@
         </div>
       </div>
       <div class="container-fluid mt-5 p-0">
-        <div
-          class="tech-scroll-container d-flex align-items-center animate-scroll">
-          <div class="tech-item">
-            <img src="images/carousel-1.png" class="w-100" alt="Cloudflare">
-          </div>
-          <div class="tech-item">
-            <img src="images/carousel-2.png" class="w-100" alt="WordPress">
-          </div>
-          <div class="tech-item">
-            <img src="images/carousel-3.png" class="w-100" alt="Craft CMS">
-          </div>
-          <div class="tech-item">
-            <img src="images/carousel-4.png" class="w-100" alt="Shopify">
-          </div>
-          <div class="tech-item">
-            <img src="images/carousel-5.png" class="w-100" alt="Webflow">
-          </div>
-          <div class="tech-item">
-            <img src="images/carousel-6.png" class="w-100" alt="Laravel">
-          </div>
-          <div class="tech-item">
-            <img src="images/carousel-7.png" class="w-100" alt="PHP">
-          </div>
-          <div class="tech-item">
-            <img src="images/carousel-6.png" class="w-100" alt="Laravel">
-          </div>
-        </div>
+      <div class="tech-carousel-wrapper overflow-hidden">
+  <div class="tech-scroll animate-scroll-tech d-flex">
+    <!-- <div class="tech-item">
+      <img src="images/carousel-1.png" class="w-100" alt="Cloudflare">
+    </div> -->
+    <div class="tech-item">
+      <img src="images/carousel-2.png" class="w-100" alt="WordPress">
+    </div>
+    <div class="tech-item">
+      <img src="images/carousel-3.png" class="w-100" alt="Craft CMS">
+    </div>
+    <div class="tech-item">
+      <img src="images/carousel-4.png" class="w-100" alt="Shopify">
+    </div>
+    <div class="tech-item">
+      <img src="images/carousel-5.png" class="w-100" alt="Webflow">
+    </div>
+    <div class="tech-item">
+      <img src="images/carousel-6.png" class="w-100" alt="Laravel">
+    </div>
+    <div class="tech-item">
+      <img src="images/carousel-7.png" class="w-100" alt="PHP">
+    </div>
+    <!-- Duplicate for seamless loop -->
+    <!-- <div class="tech-item">
+      <img src="images/carousel-1.png" class="w-100" alt="Cloudflare">
+    </div> -->
+    <div class="tech-item">
+      <img src="images/carousel-2.png" class="w-100" alt="WordPress">
+    </div>
+    <div class="tech-item">
+      <img src="images/carousel-3.png" class="w-100" alt="Craft CMS">
+    </div>
+     <div class="tech-item">
+      <img src="images/carousel-4.png" class="w-100" alt="Shopify">
+    </div>
+    <div class="tech-item">
+      <img src="images/carousel-5.png" class="w-100" alt="Webflow">
+    </div>
+    <div class="tech-item">
+      <img src="images/carousel-6.png" class="w-100" alt="Laravel">
+    </div>
+    <div class="tech-item">
+      <img src="images/carousel-7.png" class="w-100" alt="PHP">
+    </div>
+  </div>
+</div>
+
       </div>
     </div>
   </section>
@@ -165,7 +188,7 @@
       <!--core service section start -->
       <div class="row-gap-maintain"></div>
       <div class="row">
-        <div class="col-12 core-service-section text-center">
+        <div class="col-12 core-service-section text-center" id="service">
           <h2 class="mb-3">Our Core Services</h2>
           <p>Comprehensive digital solutions tailored to your business
             needs</p>
@@ -266,18 +289,38 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-lg-4 p-0 associate-img-bg mb-3 mb-lg-0">
+        <div class="col-12 col-lg-4 p-0 associate-img-bg portfolio-hover mb-3 mb-lg-0">
           <img src="images/portfolio-1.png" class="w-100" height="500px" alt>
-          <div class="px-4 py-4">
+          <div class="px-4 py-4 border-bottom-end">
             <span class="bage-font-style me-2">Shopify</span><span
               class="bage-font-style me-2">Custom Apps</span><span
               class="bage-font-style me-2">SEO</span>
             <h2 class="my-3">PMA Associates</h2>
-            <p>We provide a full range of Tax and Accounting services, along
+            <p class="">We provide a full range of Tax and Accounting services, along
               with Strategic Planning, Advisory, and Business Consultancy.</p>
+              <div class="syc-read-more d-none mt-3">
+                <span class="pe-1">Read More</span><img
+              src="images/Arrow 3 (Stroke)(1).png" alt>
+              </div>
+          </div>
+          </div>
+       
+         <div class="col-12 col-lg-4 p-0 associate-img-bg portfolio-hover mb-3 mb-lg-0">
+           <img src="images/portfolio-2.png" class="w-100" height="500px" alt>
+          <div class="px-4 py-4 border-bottom-end">
+            <span class="bage-font-style me-2">WordPress</span><span
+              class="bage-font-style me-2">Custom Apps</span><span
+              class="bage-font-style me-2">Performance</span>
+            <h2 class="my-3">SYC</h2>
+            <p class="">SYC have extended this expertise to people of all
+              ages for more than three decades.</p>
+              <div class="syc-read-more d-none mt-3">
+                <span class="pe-1">Read More</span><img
+              src="images/Arrow 3 (Stroke)(1).png" alt>
+              </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4 p-0 syc-img-bg mb-3 mb-lg-0">
+        <!-- <div class="col-12 col-lg-4 p-0 syc-img-bg mb-3 mb-lg-0">
           <img src="images/portfolio-2.png" class="w-100" height="500px" alt>
           <div class="px-4 py-4 border-bottom-end">
             <span class="syc-font-style me-2">WordPress</span><span
@@ -289,16 +332,21 @@
             <span class="syc-read-more pe-1">Read More</span><img
               src="images/Arrow 3 (Stroke)(1).png" alt>
           </div>
-        </div>
-        <div class="col-12 col-lg-4 p-0 associate-img-bg mb-3 mb-lg-0">
+        </div> -->
+        <div class="col-12 col-lg-4 p-0 associate-img-bg portfolio-hover mb-3 mb-lg-0">
           <img src="images/portfolio-3.png" class="w-100" height="500px" alt>
-          <div class="px-4 py-4">
+          <div class="px-4 py-4 border-bottom-end">
             <span class="bage-font-style me-2">Shopify</span><span
               class="bage-font-style me-2">Custom Apps</span><span
               class="bage-font-style me-2">SEO</span>
             <h2 class="my-3">Hillcrest Medical Center</h2>
-            <p>Hillcrest Medical Centre, you can trust us to be your lifelong
+            <p class="">Hillcrest Medical Centre, you can trust us to be your lifelong
               partner in achieving and maintaining optimal health.</p>
+              <div class="syc-read-more d-none mt-3">
+                <span class="pe-1">Read More</span><img
+              src="images/Arrow 3 (Stroke)(1).png" alt>
+              </div>
+          </div>
           </div>
         </div>
 
@@ -308,7 +356,7 @@
   <!-- client say section carousel start -->
   <section>
     <div class="row-gap-maintain"></div>
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0" id="testimonials">
       <div class="row w-100">
         <div class="col-12 core-service-section text-center">
           <h2 class="mb-3">What Our Clients Say</h2>
@@ -318,47 +366,276 @@
      <div class="client-carousel-wrapper overflow-hidden">
         <div class="row animate-scroll-client-section-one">
           <div class="col-12 col-lg-4 client-section-one">
-            <img src="images/carousel-2-1.png" class="h-100 w-100" alt>
+            <div class="client-section-one-bg h-100">
+              <div class="d-flex mb-3">
+              <img src="images/star.png" class=""  alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+            </div>
+            <p class="mb-5">The website development did take a bit longer than I expected. But this was due to health issues I suffered and Christmas. On occasions I found issues with how everything was coming together, Kaushal and his Infomax team showed a high level of professionalism and determination to provide me with a high quality website...</p>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex align-items-center">
+                 <img src="./images/logo1.png" class="me-2" alt="">
+                <div>
+                <h4 class="mb-0">RGNC, NSW</h4>
+                <h5 class="mb-0">Adelaide, Australia</h5>
+                </div>
+                </div>
+              <span class="ml-auto">- Mark Hardy</span>
+            </div>
+            </div>
           </div>
           <div class="col-12 col-lg-4 client-section-one">
-            <img src="images/carousel-2-2.png" class="h-100 w-100" alt>
+            <div class="client-section-one-bg h-100">
+              <div class="d-flex mb-3">
+              <img src="images/star.png" class=""  alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+            </div>
+            <p class="mb-5">Infomax is awesome, it's that simple. I have worked for them for several years now and here are the key points: -- Excellent technical capability: they have the skills I need -- Honesty: there are issues in every relationship and Infomax is straight with me whenever problems arise. They then fix the issues...</p>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex align-items-center">
+                 <img src="./images/logo1.png" class="me-2" alt="">
+                <div>
+                <h4 class="mb-0">Company Name</h4>
+                <h5 class="mb-0">Location</h5>
+                </div>
+                </div>
+              <span class="ml-auto">- Michael</span>
+            </div>
+            </div>
           </div>
           <div class="col-12 col-lg-4 client-section-one">
-            <img src="images/carousel-2-3.png" class="h-100 w-100" alt>
+            <div class="client-section-one-bg h-100">
+              <div class="d-flex mb-3">
+              <img src="images/star.png" class=""  alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+            </div>
+            <p class="mb-5">We engaged Infomax Digital to upgrade our website and have enjoyed the entire experience of working with them. They provided friendly, informative and prompt service the whole way through the project. The finished product is amazing and their attention to detail and customer satisfaction was second to none. I would...</p>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex align-items-center">
+                 <img src="./images/logo1.png" class="me-2" alt="">
+                <div>
+                <h4 class="mb-0">Company Name</h4>
+                <h5 class="mb-0">Location</h5>
+                </div>
+                </div>
+              <span class="ml-auto">- Sandy</span>
+            </div>
+            </div>
           </div>
+        
           <!-- duplicated -->
-          <div class="col-12 col-lg-4 client-section-one">
-            <img src="images/carousel-2-1.png" class="h-100 w-100" alt>
+           <div class="col-12 col-lg-4 client-section-one">
+            <div class="client-section-one-bg h-100">
+              <div class="d-flex mb-3">
+              <img src="images/star.png" class=""  alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+            </div>
+            <p class="mb-5">The website development did take a bit longer than I expected. But this was due to health issues I suffered and Christmas. On occasions I found issues with how everything was coming together, Kaushal and his Infomax team showed a high level of professionalism and determination to provide me with a high quality website...</p>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex align-items-center">
+                 <img src="./images/logo1.png" class="me-2" alt="">
+                <div>
+                <h4 class="mb-0">RGNC, NSW</h4>
+                <h5 class="mb-0">Adelaide, Australia</h5>
+                </div>
+                </div>
+              <span class="ml-auto">- Mark Hardy</span>
+            </div>
+            </div>
           </div>
           <div class="col-12 col-lg-4 client-section-one">
-            <img src="images/carousel-2-2.png" class="h-100 w-100" alt>
+            <div class="client-section-one-bg h-100">
+              <div class="d-flex mb-3">
+              <img src="images/star.png" class=""  alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+            </div>
+            <p class="mb-5">Infomax is awesome, it's that simple. I have worked for them for several years now and here are the key points: -- Excellent technical capability: they have the skills I need -- Honesty: there are issues in every relationship and Infomax is straight with me whenever problems arise. They then fix the issues...</p>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex align-items-center">
+                 <img src="./images/logo1.png" class="me-2" alt="">
+                <div>
+                <h4 class="mb-0">Company Name</h4>
+                <h5 class="mb-0">Location</h5>
+                </div>
+                </div>
+              <span class="ml-auto">- Michael</span>
+            </div>
+            </div>
           </div>
           <div class="col-12 col-lg-4 client-section-one">
-            <img src="images/carousel-2-3.png" class="h-100 w-100" alt>
+            <div class="client-section-one-bg h-100">
+              <div class="d-flex mb-3">
+              <img src="images/star.png" class=""  alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+            </div>
+            <p class="mb-5">We engaged Infomax Digital to upgrade our website and have enjoyed the entire experience of working with them. They provided friendly, informative and prompt service the whole way through the project. The finished product is amazing and their attention to detail and customer satisfaction was second to none. I would...</p>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex align-items-center">
+                 <img src="./images/logo1.png" class="me-2" alt="">
+                <div>
+                <h4 class="mb-0">Company Name</h4>
+                <h5 class="mb-0">Location</h5>
+                </div>
+                </div>
+              <span class="ml-auto">- Sandy</span>
+            </div>
+            </div>
           </div>
         </div>
       </div>
           <div class="client-carousel-wrapper overflow-hidden mt-4">
         <div class="row animate-scroll-client-section-two">
-          <div class="col-0 col-lg-1"></div>
+          <div class="col-1 d-none d-lg-block"></div>
           <div class="col-12 col-lg-4 client-section-two">
-            <img src="images/carousel-2-4.png" class="h-100 w-100" alt>
+            <div class="client-section-two-bg h-100">
+              <div class="d-flex mb-3">
+              <img src="images/star.png" class=""  alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+            </div>
+            <p class="mb-5">We engaged Infomax Digital to upgrade our website and have enjoyed the entire experience of working with them. They provided friendly, informative and prompt service the whole way through the project. The finished product is amazing and their attention to detail and customer satisfaction was second to none. I would...</p>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex align-items-center">
+                 <img src="./images/logo1.png" class="me-2" alt="">
+                <div>
+                <h4 class="mb-0">Company Name</h4>
+                <h5 class="mb-0">Location</h5>
+                </div>
+                </div>
+              <span class="ml-auto">- Sandy</span>
+            </div>
+            </div>
           </div>
-          <div class="col-12 col-lg-4 client-section-two">
-            <img src="images/carousel-2-5.png" class="h-100 w-100" alt>
+           <div class="col-12 col-lg-4 client-section-two">
+            <div class="client-section-two-bg h-100">
+              <div class="d-flex mb-3">
+              <img src="images/star.png" class=""  alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+            </div>
+            <p class="mb-5">The website development did take a bit longer than I expected. But this was due to health issues I suffered and Christmas. On occasions I found issues with how everything was coming together, Kaushal and his Infomax team showed a high level of professionalism and determination to provide me with a high quality website...</p>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex align-items-center">
+                 <img src="./images/logo1.png" class="me-2" alt="">
+                <div>
+                <h4 class="mb-0">RGNC, NSW</h4>
+                <h5 class="mb-0">Adelaide, Australia</h5>
+                </div>
+                </div>
+              <span class="ml-auto">- Mark Hardy</span>
+            </div>
+            </div>
           </div>
-          <div class="col-12 col-lg-4 client-section-two">
-            <img src="images/carousel-2-2.png" class="h-100 w-100" alt>
+           <div class="col-12 col-lg-4 client-section-two">
+            <div class="client-section-two-bg h-100">
+              <div class="d-flex mb-3">
+              <img src="images/star.png" class=""  alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+            </div>
+            <p class="mb-5">Infomax is awesome, it's that simple. I have worked for them for several years now and here are the key points: -- Excellent technical capability: they have the skills I need -- Honesty: there are issues in every relationship and Infomax is straight with me whenever problems arise. They then fix the issues...</p>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex align-items-center">
+                 <img src="./images/logo1.png" class="me-2" alt="">
+                <div>
+                <h4 class="mb-0">Company Name</h4>
+                <h5 class="mb-0">Location</h5>
+                </div>
+                </div>
+              <span class="ml-auto">- Sandy</span>
+            </div>
+            </div>
           </div>
           <!-- duplicated -->
           <div class="col-12 col-lg-4 client-section-two">
-            <img src="images/carousel-2-3.png" class="h-100 w-100" alt>
+            <div class="client-section-two-bg h-100">
+              <div class="d-flex mb-3">
+              <img src="images/star.png" class=""  alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+            </div>
+            <p class="mb-5">We engaged Infomax Digital to upgrade our website and have enjoyed the entire experience of working with them. They provided friendly, informative and prompt service the whole way through the project. The finished product is amazing and their attention to detail and customer satisfaction was second to none. I would...</p>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex align-items-center">
+                 <img src="./images/logo1.png" class="me-2" alt="">
+                <div>
+                <h4 class="mb-0">Company Name</h4>
+                <h5 class="mb-0">Location</h5>
+                </div>
+                </div>
+              <span class="ml-auto">- Sandy</span>
+            </div>
+            </div>
           </div>
-          <div class="col-12 col-lg-4 client-section-two">
-            <img src="images/carousel-2-4.png" class="h-100 w-100" alt>
+           <div class="col-12 col-lg-4 client-section-two">
+            <div class="client-section-two-bg h-100">
+              <div class="d-flex mb-3">
+              <img src="images/star.png" class=""  alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+            </div>
+            <p class="mb-5">The website development did take a bit longer than I expected. But this was due to health issues I suffered and Christmas. On occasions I found issues with how everything was coming together, Kaushal and his Infomax team showed a high level of professionalism and determination to provide me with a high quality website...</p>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex align-items-center">
+                 <img src="./images/logo1.png" class="me-2" alt="">
+                <div>
+                <h4 class="mb-0">RGNC, NSW</h4>
+                <h5 class="mb-0">Adelaide, Australia</h5>
+                </div>
+                </div>
+              <span class="ml-auto">- Mark Hardy</span>
+            </div>
+            </div>
           </div>
-          <div class="col-12 col-lg-4 client-section-two">
-            <img src="images/carousel-2-5.png" class="h-100 w-100" alt>
+           <div class="col-12 col-lg-4 client-section-two">
+            <div class="client-section-two-bg h-100">
+              <div class="d-flex mb-3">
+              <img src="images/star.png" class=""  alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+              <img src="images/star.png" class="" alt="star">
+            </div>
+            <p class="mb-5">Infomax is awesome, it's that simple. I have worked for them for several years now and here are the key points: -- Excellent technical capability: they have the skills I need -- Honesty: there are issues in every relationship and Infomax is straight with me whenever problems arise. They then fix the issues...</p>
+            <div class="d-flex justify-content-between align-items-end">
+                <div class="d-flex align-items-center">
+                 <img src="./images/logo1.png" class="me-2" alt="">
+                <div>
+                <h4 class="mb-0">Company Name</h4>
+                <h5 class="mb-0">Location</h5>
+                </div>
+                </div>
+              <span class="ml-auto">- Sandy</span>
+            </div>
+            </div>
           </div>
         </div>
       </div>
@@ -589,7 +866,7 @@
         </div>
         <div class="row mt-5 justify-content-center">
           <div class="col-12 col-lg-3 col-md-6 d-flex justify-content-center">
-            <button class="btn-request-custom-quote">Request Custom
+            <button class="btn-request-custom-quote" onclick="location.href='#get-a-free-quates'">Request Custom
               Quote</button>
           </div>
         </div>
@@ -597,7 +874,7 @@
         <div class="row-gap-maintain"></div>
         <div class="row">
           <div class="col-12 col-lg-5">
-            <div class="why-choose-section">
+            <div class="why-choose-section text-center text-lg-start">
               <h2 class="text-center text-lg-start">Why Choose
                 Infomax Digital</h2>
               <p>At Infomax Digital, we bring over 10 years of experience
@@ -618,11 +895,11 @@
               class="row mt-5 justify-content-center justify-content-lg-start mb-5 mb-lg-0">
               <div
                 class="col-12 col-lg-6 col-md-6 d-flex justify-content-center justify-content-lg-start">
-                <button class="btn-request-custom-quote">Get In Touch</button>
+                <button class="btn-request-custom-quote" onclick="location.href ='#get-a-free-quates'">Get In Touch</button>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-7">
+          <div class="col-12 col-lg-7 text-center text-lg-start">
             <div class="row why-choose-right">
               <div class="col-6 mb-5">
                 <div class="year-of-exp">
@@ -683,9 +960,9 @@
           <div class="col-12 col-lg-6 mb-3 mb-lg-0">
             <div
               class="meet-the-team">
-              <div><img src="./images/kaushal-img.png" class="mb-3 mb-lg-0"
+              <div class="w-100"><img src="./images/kaushal-img.png" class="mb-3 mb-lg-0 w-100"
                   alt></div>
-              <div class="ps-0 ps-lg-5">
+              <div class="ps-lg-5 ps-3 pb-3 pb-lg-0 ps-lg-5">
                 <h4>Kaushal Shah</h4>
                 <h5>Founder</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -697,9 +974,9 @@
           <div class="col-12 col-lg-6">
             <div
               class="meet-the-team">
-              <div><img src="./images/sanjay-img.png" class="mb-3 mb-lg-0"
+              <div class="w-100"><img src="./images/sanjay-img.png" class="mb-3 mb-lg-0 w-100"
                   alt></div>
-              <div class="ps-0 ps-lg-5">
+              <div class="ps-lg-5 ps-3 pb-3 pb-lg-0 ps-lg-5">
                 <h4>Sanjay Sathwara</h4>
                 <h5>Partner</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
@@ -723,24 +1000,24 @@
                 <div class="mb-3 d-flex align-items-center">
                   <img src="./images/tick-circle-white.svg" class="me-2"
                     alt="tick">
-                  <span>100% Local Adelaide Team</span>
+                  <p><span>100%</span> Local Adelaide Team</p>
                 </div>
                 <div class="mb-3 d-flex align-items-center">
                   <img src="./images/tick-circle-white.svg" class="me-2"
                     alt="tick">
-                  <span>Affordable Pricing with
-                    No Hidden Fees</span>
+                  <p><span>Affordable Pricing</span> with
+                    No Hidden Fees</p>
                 </div>
                 <div class="mb-3 d-flex align-items-center">
                   <img src="./images/tick-circle-white.svg" class="me-2"
                     alt="tick">
-                  <span>24/7 Support</span>
+                  <p><span>24/7</span> Support</p>
                 </div>
                 <div class="mb-3 d-flex align-items-center">
                   <img src="./images/tick-circle-white.svg" class="me-2"
                     alt="tick">
-                  <span>Trusted by Businesses &
-                    Startups Australia-wide</span>
+                  <p><span>Trusted by</span> Businesses &
+                    Startups Australia-wide</p>
                 </div>
               </div>
             </div>
@@ -773,7 +1050,7 @@
                   </div>
                   <div class="form-group col-12 col-lg-6 mb-3">
                     <label for="service">Service Required*</label>
-                    <select id="service" class="form-control">
+                    <select id="service" class="form-control" aria-label="Default select example">
                       <option selected>What type of service do you
                         need?</option>
                       <option>...</option>
@@ -802,15 +1079,13 @@
       </div>
     </section>
     <!-- footer section -->
-    <section class="footer-wrapper d-none d-lg-block">
-      <div class="row-gap-maintain"></div>
-
+    <div class="row-gap-maintain"></div>
+    <section class="footer-wrapper" id="contactus">
       <div class="footer-wrapper-bg-img-1">
-
       </div>
       <div class="container footer-wrapper-bg-img-2">
         <div class="row">
-          <div class="col-7">
+          <div class="col-12 col-lg-7">
             <h2 class="mb-2">Ready to Start Your Next
               Digital Project?</h2>
             <p class="mb-5">Let’s build something amazing together.
@@ -818,17 +1093,17 @@
               trail - and our clients are proof. They came with
               challenges;
               they left with solutions that worked.</p>
-            <div><button class="btn-footer" onclick="location.href ='#get-a-free-quates'">Get Your Free Consultation
+            <div class="text-center text-lg-start"><button class="btn-footer" onclick="location.href ='#get-a-free-quates'">Get Your Free Consultation
                 <img src="./images/arrow-right.png" alt></button></div>
           </div>
-          <div class="col-0 col-lg-2"></div>
-          <div class="col-3"><img src="./images/footer-logo.png"
+          <div class="col-2 d-none d-lg-block"></div>
+          <div class="col-12 col-lg-3 mt-5 mt-lg-0 text-center"><img src="./images/footer-logo.png"
               class height="275px" width="226px" alt></div>
         </div>
       </div>
       <div class="container footer-wrapper-bg-img-3">
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-lg-4 text-center text-lg-start mb-4 mb-lg-0">
             <div>
               <img src="images/infomax-logo.png" alt>
               <p class="my-4">Your trusted partner for web development and
@@ -843,57 +1118,57 @@
             </div>
 
           </div>
-          <div class="col-2 useful-link">
+          <div class="col-12 col-lg-2 useful-link  text-center text-lg-start mb-4 mb-lg-0">
             <h2 class="mb-3">Useful Links</h2>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Work</a>
-            <a href="#">Testimonials</a>
-            <a href="#">Contact Us</a>
+            <a href="#view-our-work">About</a>
+            <a href="#service">Services</a>
+            <a href="#view-our-work">Work</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#get-a-free-quates">Contact Us</a>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-lg-3  text-center text-lg-start mb-4 mb-lg-0">
             <div class="location-detail">
               <div
-                class="d-flex align-items-center justify-content-start mb-3">
+                class="d-flex align-items-center justify-content-center justify-content-lg-start mb-3">
                 <img src="images/india-flag-icon.png" class="me-2" alt>
                 <h2 class="mb-0">India</h2>
               </div>
-              <div class="d-flex align-items-center mb-2">
+              <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2">
                 <img src="images/location.png" class="me-2" alt>
                 <a href target="_blank">
                   Ahmedabad, India
                 </a>
               </div>
-              <div class="d-flex align-items-center mb-2">
+              <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2">
                 <img src="images/call.png" class="me-2" alt>
                 <a href="tel:+91079909 15324">079909 15324</a>
               </div>
-              <div class="d-flex align-items-center mb-2">
+              <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2">
                 <img src="images/sms.svg" class="me-2" alt>
                 <a
                   href="mailto:hello@infomaxdigital.com.au">hello@infomaxdigital.com.au</a>
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-12 col-lg-3  text-center text-lg-start mb-4 mb-lg-0">
             <div class="location-detail">
               <div
-                class="d-flex align-items-center justify-content-start mb-3">
+                class="d-flex align-items-center justify-content-center justify-content-lg-start mb-3">
                 <img src="images/australiya-flag-icon.png" class="me-2" alt>
                 <h2 class="mb-0">Australia</h2>
               </div>
-              <div class="d-flex align-items-center mb-2">
+              <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2">
                 <img src="images/location.png" class="me-2" alt>
                 <a href target="_blank">
                   Adelaide, Australia
                 </a>
 
               </div>
-              <div class="d-flex align-items-center mb-2">
+              <div class="d-flex align-items-center justify-content-center justify-content-lg-start mb-2">
                 <img src="images/call.png" class="me-2" alt>
                 <a href="tel:+6308 8100 5246">08 8100 5246</a>
               </div>
-              <div class="d-flex align-items-center mb-2">
+              <div class="d-flex align-items-center mb-2 justify-content-center justify-content-lg-start">
                 <img src="images/sms.svg" class="me-2" alt>
                 <a
                   href="mailto:hello@infomaxdigital.com.au">hello@infomaxdigital.com.au</a>
@@ -901,8 +1176,8 @@
             </div>
           </div>
         </div>
-        <div class="row-gap-maintain-bottom-line"></div>
-        <div class="row">
+        <div class="row-gap-maintain-bottom-line d-none d-lg-block"></div>
+        <div class="row mb-3 mb-lg-0">
           <div class="col-12">
             <img src="images/Line 41.png" class="w-100" alt>
           </div>
@@ -910,8 +1185,8 @@
         <div class="row">
           <div class="col-12">
             <div
-              class="d-flex align-items-center justify-content-between footer-line-text">
-              <p>© 2025 Infomax Digital. All Rights Reserved.</p>
+              class="d-flex align-items-center justify-content-center justify-content-lg-between flex-column flex-lg-row footer-line-text">
+              <p class="mb-3 mb-lg-0 text-center text-lg-start">© 2025 Infomax Digital. All Rights Reserved.</p>
               <a href="#" class>Privacy Policy | Terms of Service</a>
             </div>
           </div>

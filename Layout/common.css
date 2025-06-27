@@ -1,0 +1,19 @@
+/* general style */
+body {
+  font-family: "Sora", sans-serif;
+}
+p {
+  margin-bottom: 0px;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.row-gap-maintain {
+  height: 100px;
+  width: 100%;
+}
