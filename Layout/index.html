@@ -12,14 +12,16 @@
     <link
       rel="stylesheet"
       href="./Bootstrap5/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" />
+      <script src="./Bootstrap5/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
     <link
       rel="stylesheet"
       href="./Bootstrap5/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+
     <link rel="icon" href="https://www.infomaxdigital.com.au/images/logo.png" />
     <link rel="stylesheet" href="./general.css" />
     <link rel="stylesheet" href="./common.css" />
     <link rel="stylesheet" href="./mediaQuery.css" />
-    <title>Info Max Digital</title>
+    <title>Infomax Digital</title>
   </head>
   <body>
     <!-- header section start -->
@@ -100,9 +102,9 @@
       <div class="container-fluid mt-5 p-0">
       <div class="tech-carousel-wrapper overflow-hidden">
   <div class="tech-scroll animate-scroll-tech d-flex">
-    <!-- <div class="tech-item">
+    <div class="tech-item">
       <img src="images/carousel-1.png" class="w-100" alt="Cloudflare">
-    </div> -->
+    </div>
     <div class="tech-item">
       <img src="images/carousel-2.png" class="w-100" alt="WordPress">
     </div>
@@ -121,10 +123,13 @@
     <div class="tech-item">
       <img src="images/carousel-7.png" class="w-100" alt="PHP">
     </div>
+    <div class="tech-item">
+      <img src="images/carousel-8.png" class="w-100" alt="PHP">
+    </div>
     <!-- Duplicate for seamless loop -->
-    <!-- <div class="tech-item">
+    <div class="tech-item">
       <img src="images/carousel-1.png" class="w-100" alt="Cloudflare">
-    </div> -->
+    </div>
     <div class="tech-item">
       <img src="images/carousel-2.png" class="w-100" alt="WordPress">
     </div>
@@ -142,6 +147,9 @@
     </div>
     <div class="tech-item">
       <img src="images/carousel-7.png" class="w-100" alt="PHP">
+    </div>
+    <div class="tech-item">
+      <img src="images/carousel-8.png" class="w-100" alt="PHP">
     </div>
   </div>
 </div>
@@ -280,79 +288,86 @@
   </section>
   <!-- our portfolio section -->
   <section id="view-our-work">
-    <div class="row-gap-maintain"></div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 core-service-section text-center">
-          <h2 class="mb-3">Our Portfolio</h2>
-          <p>Showcasing our best work for Australian businesses</p>
+  <div class="row-gap-maintain"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 core-service-section text-center">
+        <h2 class="mb-3">Our Portfolio</h2>
+        <p>Showcasing our best work for Australian businesses</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="carouselExampleCaptions" class="carousel slide px-0" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active d-flex">
+              <div class="col-12 col-lg-4 p-0 associate-img-bg mb-3 mb-lg-0">
+                <img src="images/portfolio-1.png" class="w-100" height="500px" alt>
+                <div class="px-4 py-4 border-bottom-end">
+                  <span class="bage-font-style me-1 me-xxl-2">Shopify</span>
+                  <span class="bage-font-style me-1 me-xxl-2">Custom Apps</span>
+                  <span class="bage-font-style me-1 me-xxl-2">SEO</span>
+                  <h2 class="my-3">PMA Associates</h2>
+                  <p>We provide a full range of Tax and Accounting services, along with Strategic Planning, Advisory, and Business Consultancy.</p>
+                  <div class="syc-read-more d-none mt-3">
+                    <span class="pe-1">Read More</span>
+                    <img src="images/Arrow 3 (Stroke)(1).png" alt>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4 p-0 associate-img-bg mb-3 mb-lg-0">
+                <img src="images/portfolio-2.png" class="w-100" height="500px" alt>
+                <div class="px-4 py-4 border-bottom-end">
+                  <span class="bage-font-style me-1 me-xxl-2">WordPress</span>
+                  <span class="bage-font-style me-1 me-xxl-2">Custom Apps</span>                  
+                  <span class="bage-font-style me-1 me-xxl-2">Performance</span>
+                  <h2 class="my-3">SYC</h2>
+                  <p>SYC have extended this expertise to people of all ages for more than three decades.</p>
+                  <div class="syc-read-more d-none mt-3">
+                    <span class="pe-1">Read More</span>
+                    <img src="images/Arrow 3 (Stroke)(1).png" alt>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4 p-0 associate-img-bg mb-3 mb-lg-0">
+                <img src="images/portfolio-3.png" class="w-100" height="500px" alt>
+                <div class="px-4 py-4 border-bottom-end">
+                  <span class="bage-font-style me-1 me-xxl-2">Shopify</span>
+                  <span class="bage-font-style me-1 me-xxl-2">Custom Apps</span>
+                  <span class="bage-font-style me-1 me-xxl-2">SEO</span>
+                  <h2 class="my-3">Hillcrest Medical Center</h2>
+                  <p>Hillcrest Medical Centre, you can trust us to be your lifelong partner in achieving and maintaining optimal health.</p>
+                  <div class="syc-read-more d-none mt-3">
+                    <span class="pe-1">Read More</span>
+                    <img src="images/Arrow 3 (Stroke)(1).png" alt>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
         </div>
       </div>
-      <div class="row">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-<div class="row">
-                <div class="col-12 col-lg-4 p-0 associate-img-bg  mb-3 mb-lg-0">
-          <img src="images/portfolio-1.png" class="w-100" height="500px" alt>
-          <div class="px-4 py-4 border-bottom-end">
-            <span class="bage-font-style me-2">Shopify</span><span
-              class="bage-font-style me-2">Custom Apps</span><span
-              class="bage-font-style me-2">SEO</span>
-            <h2 class="my-3">PMA Associates</h2>
-            <p class="">We provide a full range of Tax and Accounting services, along
-              with Strategic Planning, Advisory, and Business Consultancy.</p>
-              <div class="syc-read-more d-none mt-3">
-                <span class="pe-1">Read More</span><img
-              src="images/Arrow 3 (Stroke)(1).png" alt>
-              </div>
-          </div>
-          </div>
-         <div class="col-12 col-lg-4 p-0 associate-img-bg  mb-3 mb-lg-0">
-           <img src="images/portfolio-2.png" class="w-100" height="500px" alt>
-          <div class="px-4 py-4 border-bottom-end">
-            <span class="bage-font-style me-2">WordPress</span><span
-              class="bage-font-style me-2">Custom Apps</span><span
-              class="bage-font-style me-2">Performance</span>
-            <h2 class="my-3">SYC</h2>
-            <p class="">SYC have extended this expertise to people of all
-              ages for more than three decades.</p>
-              <div class="syc-read-more d-none mt-3">
-                <span class="pe-1">Read More</span><img
-              src="images/Arrow 3 (Stroke)(1).png" alt>
-              </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-4 p-0 associate-img-bg  mb-3 mb-lg-0">
-          <img src="images/portfolio-3.png" class="w-100" height="500px" alt>
-          <div class="px-4 py-4 border-bottom-end">
-            <span class="bage-font-style me-2">Shopify</span><span
-              class="bage-font-style me-2">Custom Apps</span><span
-              class="bage-font-style me-2">SEO</span>
-            <h2 class="my-3">Hillcrest Medical Center</h2>
-            <p class="">Hillcrest Medical Centre, you can trust us to be your lifelong
-              partner in achieving and maintaining optimal health.</p>
-              <div class="syc-read-more d-none mt-3">
-                <span class="pe-1">Read More</span><img
-              src="images/Arrow 3 (Stroke)(1).png" alt>
-              </div>
-          </div>
-          </div>
-</div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide">
     </div>
   </div>
-</div>
-      </div>
+</section>
 
-      </div>
-    </div>
-  </section>
   <!-- client say section carousel start -->
   <section>
     <div class="row-gap-maintain"></div>
@@ -930,7 +945,7 @@
                   <p>Future-ready applications built with best practices</p>
                 </div>
               </div>
-              <div class="col-6 mb-5 mb-lg-0">
+              <div class="col-6 mb-5 mb-lg-0 mb-md-0">
                 <div class="year-of-exp">
                   <img src="./images/why-choose-5.png" alt>
                   <h3>Australia-Based Team</h3>
@@ -938,7 +953,7 @@
                     support</p>
                 </div>
               </div>
-              <div class="col-6 mb-5 mb-lg-0">
+              <div class="col-6 mb-5 mb-lg-0 mb-md-0">
                 <div class="year-of-exp">
                   <img src="./images/why-choose-6.png" alt>
                   <h3>100% Satisfaction Guarantee</h3>
@@ -1050,7 +1065,7 @@
                   </div>
                   <div class="form-group col-12 col-lg-6 mb-3">
                     <label for="service">Service Required*</label>
-                    <select id="service" class="form-control" aria-label="Default select example">
+                    <select id="service" class="form-select" aria-label="Default select example">
                       <option selected>What type of service do you
                         need?</option>
                       <option>...</option>
@@ -1067,7 +1082,7 @@
                 <div
                   class="row justify-content-center justify-content-lg-start">
                   <div
-                    class="col-12 col-lg-6 col-md-3 d-flex justify-content-center justify-content-lg-start  align-items-center">
+                    class="col-12 col-lg-12 d-flex justify-content-center justify-content-lg-start  align-items-center">
                     <button class="diss-project-btn">Let's Discuss Your
                       Project</button>
                   </div>
